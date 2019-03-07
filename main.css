@@ -40,7 +40,7 @@ p {
 
 .gallery-cell {
     width: 60%;
-    height: 45vh;
+    height: 50vh;
     margin-right: 4vw;
     background-image: url(assets/cards.png);
     counter-increment: gallery-cell;

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <!-- other head stuff... -->
+    <link rel="stylesheet" href="flickity.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+</head>
+<style>
+    #containter {
+        height: inherit;
+        display: flex;
+        /* flex-direction: column;*/
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+
+    #content {}
+
+</style>
+
+<body>
+    <!-- all your great html... -->
+    <script src="flickity.pkgd.min.js"></script>
+
+    <div class="logo">
+        <img src="assets/kinglogo.svg" alt="">
+    </div>
+    <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+        <div class="gallery-cell">
+            <div id="containter">
+                <div id="content">
+                    <p>The naughty racoon has eaten your token!</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-cell">
+           <div id="containter">
+                <div id="content">
+                    <p>The person before you loses 3 points</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-cell">
+           <div id="containter">
+                <div id="content">
+                    <p>Rethrow your token!</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-cell">
+           <div id="containter">
+                <div id="content">
+                    <p>Move 2 steps in any direction</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-cell">
+           <div id="containter">
+                <div id="content">
+                    <p>Move somebody else's token back 2 spaces</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>

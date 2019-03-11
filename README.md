@@ -1,5 +1,7 @@
-# Mobile app companion prototype for King Games sponsored Hackathon
+# Mobile app companion prototype
 
-zachmolony.github.io/ffc/
+ Made as part of King Games sponsored Hackathon
 
-(veiw in mobile mode)
+zachmolony.github.io/farm_heroes_feeder_mobileapp/
+
+(veiw in mobile mode in inspect element)
